@@ -99,7 +99,7 @@
               "FontSize": 16,
               "Justification": "Center",
               "Padding": [ 5, 5, 5, 10 ]
-            }
+            }.
           }
         ]
       }
