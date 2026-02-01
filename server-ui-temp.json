@@ -36,6 +36,15 @@
               "Justification": "Center",
               "Padding": [ 5, 5, 5, 10 ]
             }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Button_v1.DU_View_Button_v1_C",
+            "Props": {
+              "Text": "Visit Dragon Heart Community",
+              "URL": "https://www.welcometodragonheartcommunity.com/",
+              "Justification": "Center",
+              "Padding": [ 5, 5, 5, 5 ]
+            }
           }
         ]
       }
