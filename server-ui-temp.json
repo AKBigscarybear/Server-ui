@@ -1,0 +1,78 @@
+{
+  "RequestUID": "Ark-Nucleus/WebUI",
+  "UUID": "MyCustomServerUI",
+  "Data": {
+    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Tabbed_v1.DU_Panel_Tabbed_v1_C",
+    "Props": {
+      "UUID": "MainTab",
+      "Fill": 1
+    },
+    "UICache": {
+      "SaveFile": "CustomServerPage-MainTab"
+    },
+    "Tabs": [
+      {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+        "Props": {
+          "Title": "Welcome",
+          "Note": "Welcome to your server!",
+          "Fill": 1
+        },
+        "UIItems": [
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Welcome to My Server",
+              "FontSize": 28,
+              "Justification": "Center",
+              "Padding": [ 5, 5, 5, 20 ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Add your own custom welcome message here.",
+              "FontSize": 16,
+              "Justification": "Center",
+              "Padding": [ 5, 5, 5, 10 ]
+            }
+          }
+        ]
+      },
+      {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+        "Props": {
+          "Title": "Information",
+          "Note": "Server information and details",
+          "Fill": 1
+        },
+        "UIItems": [
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Server Name: My Awesome Server",
+              "FontSize": 16,
+              "Padding": [ 5, 5, 5, 10 ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Players: 0/70",
+              "FontSize": 16,
+              "Padding": [ 5, 5, 5, 10 ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Discord: https://discord.gg/yourserver",
+              "FontSize": 14,
+              "Padding": [ 5, 5, 5, 5 ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
