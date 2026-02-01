@@ -22,7 +22,7 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "Welcome to My Server",
+              "Text": "Welcome to Dragon Heart ARK Servers!",
               "FontSize": 28,
               "Justification": "Center",
               "Padding": [ 5, 5, 5, 20 ]
@@ -31,7 +31,7 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "Add your own custom welcome message here.",
+              "Text": "Make sure to Join our Discord and visit the website to complete all steps to register!",
               "FontSize": 16,
               "Justification": "Center",
               "Padding": [ 5, 5, 5, 10 ]
@@ -50,7 +50,7 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "Server Name: My Awesome Server",
+              "Text": "Server Name: Dragon Heart Lost Colony",
               "FontSize": 16,
               "Padding": [ 5, 5, 5, 10 ]
             }
@@ -66,9 +66,39 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "Discord: https://discord.gg/yourserver",
+              "Text": "Discord: https://discord.gg/9CxUcWrDeW",
               "FontSize": 14,
               "Padding": [ 5, 5, 5, 5 ]
+            }
+          }
+        ]
+      },
+      {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+        "Props": {
+          "Title": "Quick Links",
+          "Note": "Connect with us",
+          "Fill": 1
+        },
+        "UIItems": [
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Button_v1.DU_View_Button_v1_C",
+            "Props": {
+              "Text": "Join Discord",
+              "URL": "https://discord.gg/9CxUcWrDeW",
+              "FontSize": 16,
+              "Justification": "Center",
+              "Padding": [ 5, 5, 5, 10 ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Button_v1.DU_View_Button_v1_C",
+            "Props": {
+              "Text": "Visit Website",
+              "URL": "https://www.example.com",
+              "FontSize": 16,
+              "Justification": "Center",
+              "Padding": [ 5, 5, 5, 10 ]
             }
           }
         ]
