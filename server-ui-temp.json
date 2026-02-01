@@ -25,7 +25,7 @@
               "Text": "Welcome to Dragon Heart ARK Servers!",
               "FontSize": 28,
               "Justification": "Center",
-              "Padding": [ 5, 5, 5, 20 ]
+              "Padding": [5, 5, 5, 20]
             }
           },
           {
@@ -34,17 +34,7 @@
               "Text": "Make sure to Join our Discord and visit the website to complete all steps to register!",
               "FontSize": 16,
               "Justification": "Center",
-              "Padding": [ 5, 5, 5, 10 ]
-            },
-            {
-              "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Button_v1.DU_View_Button_v1_C",
-              "Props": {
-                "Text": "Visit Website",
-                "URL": "https://dragonheartark.gameserverapp.net",
-                "FontSize": 16,
-                "Justification": "Center",
-                "Padding": [ 5, 5, 5, 10 ]
-              }
+              "Padding": [5, 5, 5, 10]
             }
           }
         ]
@@ -62,7 +52,7 @@
             "Props": {
               "Text": "Server Name: Dragon Heart Lost Colony",
               "FontSize": 16,
-              "Padding": [ 5, 5, 5, 10 ]
+              "Padding": [5, 5, 5, 10]
             }
           },
           {
@@ -70,7 +60,7 @@
             "Props": {
               "Text": "Players: 0/70",
               "FontSize": 16,
-              "Padding": [ 5, 5, 5, 10 ]
+              "Padding": [5, 5, 5, 10]
             }
           },
           {
@@ -78,7 +68,7 @@
             "Props": {
               "Text": "Discord: https://discord.gg/9CxUcWrDeW",
               "FontSize": 14,
-              "Padding": [ 5, 5, 5, 5 ]
+              "Padding": [5, 5, 5, 5]
             }
           }
         ]
@@ -98,8 +88,18 @@
               "URL": "https://discord.gg/9CxUcWrDeW",
               "FontSize": 16,
               "Justification": "Center",
-              "Padding": [ 5, 5, 5, 10 ]
-            }.
+              "Padding": [5, 5, 5, 10]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Button_v1.DU_View_Button_v1_C",
+            "Props": {
+              "Text": "Visit Website",
+              "URL": "https://www.example.com",
+              "FontSize": 16,
+              "Justification": "Center",
+              "Padding": [5, 5, 5, 10]
+            }
           }
         ]
       }
