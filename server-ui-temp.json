@@ -14,6 +14,7 @@
       {
         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
         "Props": {
+          "UUID": "Tab-Welcome",
           "Title": "Welcome",
           "Note": "Welcome to your server!",
           "Fill": 1
@@ -22,28 +23,51 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
+              "UUID": "WelcomeHeader",
               "Text": "Welcome to Dragon Heart ARK Servers!",
               "FontSize": 28,
               "Justification": "Center",
-              "Padding": [ 5, 5, 5, 20 ]
+              "Padding": [ 5, 5, 5, 20 ],
+              "Accessibility": {
+                "AriaLabel": "Welcome header",
+                "Role": "heading",
+                "Level": 1
+              }
             }
           },
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
+              "UUID": "WelcomeNote",
               "Text": "Make sure to Join our Discord and visit the website to complete all steps to register!",
               "FontSize": 16,
               "Justification": "Center",
-              "Padding": [ 5, 5, 5, 10 ]
+              "Padding": [ 5, 5, 5, 10 ],
+              "Accessibility": {
+                "AriaLabel": "Welcome instructions",
+                "Role": "region"
+              }
             }
           },
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Button_v1.DU_View_Button_v1_C",
             "Props": {
+              "UUID": "VisitCommunityButton",
               "Text": "Visit Dragon Heart Community",
               "URL": "https://www.welcometodragonheartcommunity.com/",
               "Justification": "Center",
-              "Padding": [ 5, 5, 5, 5 ]
+              "Padding": [ 5, 5, 5, 5 ],
+              "OpenInNewWindow": true,
+              "Target": "_blank",
+              "Accessibility": {
+                "AriaLabel": "Visit Dragon Heart Community",
+                "Role": "button"
+              },
+              "Analytics": {
+                "Event": "ClickVisitDragonHeart",
+                "Category": "UI",
+                "Label": "MainTab-Welcome-VisitButton"
+              }
             }
           }
         ]
