@@ -50,25 +50,20 @@
             }
           },
           {
-            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Button_v1.DU_View_Button_v1_C",
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
             "Props": {
-              "UUID": "VisitCommunityButton",
-              "Text": "Visit Dragon Heart Community",
-              "URL": "https://www.welcometodragonheartcommunity.com/",
-              "Justification": "Center",
-              "Padding": [ 5, 5, 5, 5 ],
-              "OpenInNewWindow": true,
-              "Target": "_blank",
-              "Accessibility": {
-                "AriaLabel": "Visit Dragon Heart Community",
-                "Role": "button"
-              },
-              "Analytics": {
-                "Event": "ClickVisitDragonHeart",
-                "Category": "UI",
-                "Label": "MainTab-Welcome-VisitButton"
-              }
+              "Label": "Dragon Heart Community Page",
+              "Padding": [
+                5,
+                5,
+                5,
+                5
+              ]
+            },
+            "OnClickEvent": {
+              "Url": "https://dragonheartark.gameserverapp.net/"
             }
+          }
           }
         ]
       }
